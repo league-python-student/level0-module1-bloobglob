@@ -24,3 +24,4 @@ if __name__ == '__main__':
     riddle3 = simpledialog.askstring(None, 'What has six faces, but does not wear makeup, has twenty-one eyes, but cannot see? ')
     if riddle3.lower() == 'a die':
         score+=1
+    messagebox.showinfo(None, 'You got ' + str(score) + '/3')
